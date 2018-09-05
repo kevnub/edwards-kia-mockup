@@ -34,8 +34,9 @@ p.main-header {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
     line-height: 1.3;
-    display: none;
 }
 
 h3.content-header {
@@ -131,7 +132,7 @@ p.content-info {
     font-size: 14px;
 }
 
-.aug-navbar {
+.aug-navbar,.aug-navbar-cta {
     text-align: center;
     font-weight: bold;
 }
@@ -139,6 +140,17 @@ p.content-info {
 .aug-navbar a {
     color: #C10933;
     background: #e0e0e0;
+    padding: 18px 0px 18px 0px;
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.aug-navbar-cta a {
+    color: white;
+    background: #BF1137;
     padding: 18px 0px 18px 0px;
     font-family: "Work Sans", Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -266,6 +278,8 @@ html {
   }
   p.main-header {
       display: block;
+      padding: 0px;
+      text-align: left;
   }
 }
 
